@@ -16,3 +16,7 @@ def test_calculadora_multiplicacao():
 def test_calculadora_divisao():
     calc = ClassCalculadora()
     assert calc.divisao(10, 2) == 5
+
+def test_calculadora_potencia():
+    calc = ClassCalculadora()
+    assert calc.potencia(2, 2) == 4
