@@ -12,3 +12,7 @@ class ClassCalculadora():
 
     def potencia(self, x, y):
         return x ** y
+
+    def radical(self, x, y):
+        radical = x ** (1 / y)
+        return radical
