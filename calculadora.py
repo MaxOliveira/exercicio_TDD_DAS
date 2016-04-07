@@ -9,3 +9,6 @@ class ClassCalculadora():
 
     def multiplicacao(self, x, y):
         return x * y
+
+    def potencia(self, x, y):
+        return x ** y
