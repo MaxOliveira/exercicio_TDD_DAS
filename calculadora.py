@@ -1,3 +1,4 @@
+import math
 
 class ClassCalculadora():
 
@@ -16,3 +17,7 @@ class ClassCalculadora():
     def radical(self, x, y):
         radical = x ** (1 / y)
         return radical
+
+    def log(self, x, y):
+        log = math.log(x, y)
+        return log
