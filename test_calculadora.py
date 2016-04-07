@@ -28,3 +28,7 @@ def test_calculadora_radical():
 def test_calculadora_log():
     calc = ClassCalculadora()
     assert calc.log(4, 2) == 2
+
+def test_calculadora_fatorial():
+    calc = ClassCalculadora()
+    assert calc.fatorial(5) == 120
