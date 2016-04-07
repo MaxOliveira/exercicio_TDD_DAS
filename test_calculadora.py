@@ -24,3 +24,7 @@ def test_calculadora_potencia():
 def test_calculadora_radical():
     calc = ClassCalculadora()
     assert calc.radical(9, 2.0) == 3
+
+def test_calculadora_log():
+    calc = ClassCalculadora()
+    assert calc.log(4, 2) == 2
