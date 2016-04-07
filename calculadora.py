@@ -27,3 +27,7 @@ class ClassCalculadora():
             return 1
         else:
             return x * self.fatorial(x - 1)
+
+    def valorAbsoluto(self, x):
+        valorAbsoluto = math.fabs(x)
+        return valorAbsoluto
