@@ -8,3 +8,7 @@ def test_calculadora():
 def test_calculadora_subtracao():
     calc = ClassCalculadora()
     assert calc.subtracao(10, 4) == 6
+
+def test_calculadora_multiplicacao():
+    calc = ClassCalculadora()
+    assert calc.multiplicacao(10, 2) == 20
