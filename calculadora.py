@@ -21,3 +21,9 @@ class ClassCalculadora():
     def log(self, x, y):
         log = math.log(x, y)
         return log
+
+    def fatorial(self, x):
+        if x <= 1:
+            return 1
+        else:
+            return x * self.fatorial(x - 1)
