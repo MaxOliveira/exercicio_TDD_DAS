@@ -20,3 +20,7 @@ def test_calculadora_divisao():
 def test_calculadora_potencia():
     calc = ClassCalculadora()
     assert calc.potencia(2, 2) == 4
+
+def test_calculadora_radical():
+    calc = ClassCalculadora()
+    assert calc.radical(9, 2.0) == 3
