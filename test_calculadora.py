@@ -32,3 +32,7 @@ def test_calculadora_log():
 def test_calculadora_fatorial():
     calc = ClassCalculadora()
     assert calc.fatorial(5) == 120
+
+def test_calculadora_valor_absoluto():
+    calc = ClassCalculadora()
+    assert calc.valorAbsoluto(10) == 10
