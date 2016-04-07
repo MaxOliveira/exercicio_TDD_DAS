@@ -12,3 +12,7 @@ def test_calculadora_subtracao():
 def test_calculadora_multiplicacao():
     calc = ClassCalculadora()
     assert calc.multiplicacao(10, 2) == 20
+
+def test_calculadora_divisao():
+    calc = ClassCalculadora()
+    assert calc.divisao(10, 2) == 5
